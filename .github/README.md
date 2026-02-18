@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-detective`](https://www.npmjs.com/package/@aws-sdk/client-detective/v/3.169.0).
+[`@aws-sdk/client-detective`](https://www.npmjs.com/package/@aws-sdk/client-detective/v/3.170.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-detective@3.169.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-detective@3.170.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-s744mUokcth5n3QaPVxv6OqA3Uac7Joycta2Be1GG2y/RUs3L3hgdcHNePDi4MgZ
+sha384-85NDo402Ndj9L9/UKRmbgCaOddyTW9nDBLlzTmR9V15C8Z+o4YrQYZr6VvxetIqz
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-detective": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-detective@3.169.0/index.min.mjs"
+            "@aws-sdk/client-detective": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-detective@3.170.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-detective@3.169.0/index.min.mjs": "sha384-s744mUokcth5n3QaPVxv6OqA3Uac7Joycta2Be1GG2y/RUs3L3hgdcHNePDi4MgZ"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-detective@3.170.0/index.min.mjs": "sha384-85NDo402Ndj9L9/UKRmbgCaOddyTW9nDBLlzTmR9V15C8Z+o4YrQYZr6VvxetIqz"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-detective": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-detective@3.169.0/index.min.mjs"
+                        "@aws-sdk/client-detective": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-detective@3.170.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-detective@3.169.0/index.min.mjs": "sha384-s744mUokcth5n3QaPVxv6OqA3Uac7Joycta2Be1GG2y/RUs3L3hgdcHNePDi4MgZ"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-detective@3.170.0/index.min.mjs": "sha384-85NDo402Ndj9L9/UKRmbgCaOddyTW9nDBLlzTmR9V15C8Z+o4YrQYZr6VvxetIqz"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.169.0`)
+* Always pin to a specific version (`@3.170.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-detective/blob/refs/tags/3.169.0/LICENSE
+https://github.com/cloud-sdk-builds/client-detective/blob/refs/tags/3.170.0/LICENSE
 ```
 
 ---
